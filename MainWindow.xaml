@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_ISRPO_PR6"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Окно регистрации на что-то, мы обязательно это будем использовать против вас :)" Height="279" Width="527">
     <Grid>
-        <Label Content=""
+        <Label Content="Логин:" Margin="42,40,0,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="51"/>
+        <Label Content="Пароль:" Margin="42,115,0,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="62"/>
+        <TextBox Margin="104,43,0,0" TextWrapping="Wrap" x:Name="Login" HorizontalAlignment="Left" Width="307" Height="24" VerticalAlignment="Top"/>
+        <TextBox Margin="104,118,0,0" TextWrapping="Wrap" x:Name="Login_Copy" HorizontalAlignment="Left" Width="307" Height="24" VerticalAlignment="Top"/>
+        <Button Content="Зарегистрироваться" Margin="42,198,0,0" VerticalAlignment="Top" Height="24" HorizontalAlignment="Left" Width="151"/>
     </Grid>
 </Window>
