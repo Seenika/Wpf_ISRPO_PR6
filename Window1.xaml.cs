@@ -26,7 +26,7 @@ namespace Wpf_ISRPO_PR6
 
         private void Podschitst_Click(object sender, RoutedEventArgs e)
         {
-            
+            double time = DatePicker.
         }
     }
 }

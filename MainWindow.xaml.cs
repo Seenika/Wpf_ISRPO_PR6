@@ -23,6 +23,7 @@ namespace Wpf_ISRPO_PR6
         public MainWindow()
         {
             InitializeComponent();
+            Properties.Settings.Default.Save();
         }
 
         private void Data_Click(object sender, RoutedEventArgs e)
@@ -30,6 +31,11 @@ namespace Wpf_ISRPO_PR6
             Window1 window1 = new Window1();
             window1.Show();
             this.Close();
+        }
+
+        private void Reg_Click(object sender, RoutedEventArgs e)
+        {
+            Properties.Settings.Default.Save();
         }
     }
 }
