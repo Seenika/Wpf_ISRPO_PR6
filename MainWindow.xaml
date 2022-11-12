@@ -10,7 +10,8 @@
         <Label Content="Логин:" Margin="42,40,0,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="51"/>
         <Label Content="Пароль:" Margin="42,115,0,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="62"/>
         <TextBox Margin="104,43,0,0" TextWrapping="Wrap" x:Name="Login" HorizontalAlignment="Left" Width="307" Height="24" VerticalAlignment="Top"/>
-        <TextBox Margin="104,118,0,0" TextWrapping="Wrap" x:Name="Login_Copy" HorizontalAlignment="Left" Width="307" Height="24" VerticalAlignment="Top"/>
-        <Button Content="Зарегистрироваться" Margin="42,198,0,0" VerticalAlignment="Top" Height="24" HorizontalAlignment="Left" Width="151"/>
+        <TextBox Margin="104,118,0,0" TextWrapping="Wrap" x:Name="Parol" HorizontalAlignment="Left" Width="307" Height="24" VerticalAlignment="Top"/>
+        <Button x:Name="Reg" Content="Зарегистрироваться" Margin="42,198,0,0" VerticalAlignment="Top" Height="24" HorizontalAlignment="Left" Width="151"/>
+        <Button x:Name="Data" Content="Выберете дату" HorizontalAlignment="Left" Margin="375,202,0,0" VerticalAlignment="Top" Click="Data_Click"/>
     </Grid>
 </Window>
