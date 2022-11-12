@@ -26,7 +26,10 @@ namespace Wpf_ISRPO_PR6
 
         private void Podschitst_Click(object sender, RoutedEventArgs e)
         {
-            double time = DatePicker.
+            DateTime time1 = kon_data.SelectedDate.Value;
+            DateTime time2 = nach_data.SelectedDate.Value;
+            var podschot = time1 - time2;
+            MessageBox.Show(podschot.ToString());
         }
     }
 }

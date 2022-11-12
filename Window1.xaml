@@ -5,11 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_ISRPO_PR6"
         mc:Ignorable="d"
-        Title="Дата" Height="381" Width="800">
+        Title="Дата" Height="272" Width="561">
     <Grid Background="#FFCACACA">
         <DatePicker x:Name="kon_data" HorizontalAlignment="Left" Margin="153,133,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="Skolko_dnei" HorizontalAlignment="Left" Margin="300,89,0,0" TextWrapping="Wrap" Text="Сколько дней" VerticalAlignment="Top" Height="44" Width="166" Background="White" FontSize="24"/>
-        <Button x:Name="Podschitst" Content="Подсчитать" HorizontalAlignment="Left" Margin="300,0,0,0" VerticalAlignment="Center" Height="42" Width="166" FontSize="20" Click="Podschitst_Click"/>
+        <Button x:Name="Podschitst" Content="Подсчитать" HorizontalAlignment="Left" Margin="290,104,0,0" VerticalAlignment="Top" Height="42" Width="166" FontSize="20" Click="Podschitst_Click"/>
         <DatePicker x:Name="nach_data" HorizontalAlignment="Left" Margin="153,87,0,0" VerticalAlignment="Top"/>
         <Label Content="Начальная дата" HorizontalAlignment="Left" Margin="36,86,0,0" VerticalAlignment="Top"/>
         <Label Content="Конечная дата" HorizontalAlignment="Left" Margin="36,133,0,0" VerticalAlignment="Top"/>
