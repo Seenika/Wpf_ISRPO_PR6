@@ -34,7 +34,26 @@ namespace Wpf_ISRPO_PR6
 
         private void Reg_Click(object sender, RoutedEventArgs e)
         {
-            
+            string log = "konina";
+            string por = "123";
+
+            if (login.Text == log)
+            {
+                
+            }
+            else
+            {
+                MessageBox.Show("Не верный логин");
+            }
+
+            if (parol.Text == por)
+            {
+                
+            }
+            else
+            {
+                MessageBox.Show("Не верный пароль");
+            }
         }
     }
 }
